@@ -1,0 +1,296 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="DripJobs Inc">
+    <meta name="keywords" content="">
+    <meta name="author" content="DripJobs">
+    <title>Appointment Request - Customer Portal</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/js/gallery/photo-swipe/photoswipe.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/js/gallery/photo-swipe/default-skin/default-skin.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/pickers/pickadate/pickadate.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/extended/form-extended.css">
+
+    <!-- END: Vendor CSS-->
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <!-- END: Theme CSS-->
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/gallery.css">
+    <!-- END: Page CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets-new/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+<!-- BEGIN: Body-->
+<body class="container">
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-wrapper">
+            <div class="content-body">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <a href="/">
+                                <img src="https://dripjobs-files.s3.us-east-2.amazonaws.com/2023-logo-[black]-with-gradient-shirt-graphic-resize-6294632094.png?v=1" alt="DripJobs" style="max-height:135px;max-width: 320px;">
+                        </a>
+                    </div>
+                </div>
+                
+
+
+<style>
+    div.check {
+        display: block;
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .validation-summary-errors {
+        color: red;
+    }
+</style>
+
+<form action="/appointmentrequests" class="md-float-material" method="post"><input id="Appointment_Id" name="Appointment.Id" type="hidden" value="05132090754536bfa28c984f88a657" /><input id="Appointment_CompanyId" name="Appointment.CompanyId" type="hidden" value="8621032034ebdd67d592bc40c0a025" /><input id="Appointment_CustomerId" name="Appointment.CustomerId" type="hidden" value="" /><input data-val="true" data-val-date="The field Date Created must be a date." data-val-required="The Date Created field is required." id="Appointment_DateCreated" name="Appointment.DateCreated" type="hidden" value="12/8/2022 11:07:31 PM" /><input id="Appointment_CreatedBy" name="Appointment.CreatedBy" type="hidden" value="Customer" /><input data-val="true" data-val-number="The field Number must be a number." data-val-required="The Number field is required." id="Appointment_Number" name="Appointment.Number" type="hidden" value="0" /><input data-val="true" data-val-length="The field Status must be a string with a maximum length of 50." data-val-length-max="50" id="Appointment_Status" name="Appointment.Status" type="hidden" value="New" /><input id="JobId" name="JobId" type="hidden" value="" /><input id="LeadSources" name="LeadSources" type="hidden" value="System.Linq.Enumerable+WhereSelectArrayIterator`2[System.String,System.String]" /><input id="ExcludedCalendarDays" name="ExcludedCalendarDays" type="hidden" value="1,7" />    <div class="card">
+        <div class="card-body">
+            <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+            <div class="form-body">
+                <h4 class="form-section" style="color:#000000 !important;border-bottom-color:#000000 !important;">Appointment Request</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Appointment_FirstName">First Name</label>
+                            <input Value="" class="form-control" data-val="true" data-val-required="The First Name field is required." id="Appointment_FirstName" name="Appointment.FirstName" placeholder="First Name" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="userinput2">Last Name</label>
+                            <input Value="" class="form-control" data-val="true" data-val-required="The Last Name field is required." id="Appointment_LastName" name="Appointment.LastName" placeholder="Last Name" type="text" value="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Appointment_Email">Email Address</label>
+                            <input Value="" class="form-control" data-val="true" data-val-length="The field Email must be a string with a maximum length of 75." data-val-length-max="75" data-val-required="The Email field is required." id="Appointment_Email" name="Appointment.Email" placeholder="Your Email Address" type="email" value="" />
+
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Appointment_Phone">Phone Number</label>
+                                <input Value="" class="form-control" data-val="true" data-val-length="The field Phone must be a string with a maximum length of 50." data-val-length-max="50" data-val-required="The Phone field is required." id="Appointment_Phone" name="Appointment.Phone" placeholder="Your Phone" type="text" value="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="Appointment_Address1">Address</label>
+                            <input Value="" class="form-control" data-val="true" data-val-length="The field Address Line 1 must be a string with a maximum length of 100." data-val-length-max="100" data-val-required="The Address Line 1 field is required." id="Appointment_Address1" name="Appointment.Address1" placeholder="Street 1" type="text" value="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="Appointment_City">City</label>
+                            <input Value="" class="form-control" data-val="true" data-val-length="The field City must be a string with a maximum length of 50." data-val-length-max="50" data-val-required="The City field is required." id="Appointment_City" name="Appointment.City" placeholder="City" type="text" value="" />
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="Appointment_State">State/Province</label>
+                            <input Value="" class="form-control" data-val="true" data-val-length="The field State must be a string with a maximum length of 50." data-val-length-max="50" data-val-required="The State field is required." id="Appointment_State" name="Appointment.State" placeholder="State" type="text" value="" />
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="Appointment_Zip">Postal Code</label>
+                            <input Value="" class="form-control" data-val="true" data-val-length="The field Zip must be a string with a maximum length of 10." data-val-length-max="10" data-val-required="The Zip field is required." id="Appointment_Zip" name="Appointment.Zip" placeholder="Zip" type="text" value="" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="Appointment_Details">Service Details</label>
+                            <textarea class="form-control" cols="20" data-val="true" data-val-length="The field Details must be a string with a maximum length of 8000." data-val-length-max="8000" id="Appointment_Details" name="Appointment.Details" placeholder="Enter as many details as you can..." rows="2">
+</textarea>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>How did you hear about us?</label>
+<select class="form-control" data-val="true" data-val-required="The How You Heard About Us field is required." id="LeadSource" name="LeadSource" tabindex="17"><option value="">Select...</option>
+<option value="google">google</option>
+<option value="facebook">facebook</option>
+<option value="word of mouth">word of mouth</option>
+<option value="angi leads">angi leads</option>
+<option value="yard sign">yard sign</option>
+<option value="repeat customer">repeat customer</option>
+<option value="website">website</option>
+<option value="instagram">instagram</option>
+<option value="phone call">phone call</option>
+<option value="mail">mail</option>
+<option value="other">other</option>
+<option value="newspaper ad">newspaper ad</option>
+<option value="business card">business card</option>
+</select>                            </div>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Which day works best for you for an appointment?</label>
+                            <input class="form-control apt-datepick-preferred" id="Appointment_PreferredDate" name="Appointment.PreferredDate" placeholder="Preferred Date" style="background-color: #FFF !important" type="text" value="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>What is another day that works for you? (optional)</label>
+                            <input class="form-control apt-datepick-secondary" id="Appointment_AnotherDate" name="Appointment.AnotherDate" placeholder="Another Date" style="background-color: #FFF !important" type="text" value="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>What time of day works best for you?</label>
+                            <div class="check" style="margin: 0 0 5px 0;">
+                                <label class="check" style="margin: 0;">
+                                    <input data-val="true" data-val-required="The Time Anytime field is required." id="Appointment_TimeAnytime" name="Appointment.TimeAnytime" type="checkbox" value="true" /><input name="Appointment.TimeAnytime" type="hidden" value="false" />
+                                    Anytime
+                                </label>
+                            </div>
+                            <div class="check" style="margin: 0 0 5px 0;">
+                                <label class="check" style="margin: 0;">
+                                    <input data-val="true" data-val-required="The Time Morning field is required." id="Appointment_TimeMorning" name="Appointment.TimeMorning" type="checkbox" value="true" /><input name="Appointment.TimeMorning" type="hidden" value="false" />
+                                    Morning
+                                </label>
+                            </div>
+                            <div class="check" style="margin: 0 0 5px 0;">
+                                <label class="check" style="margin: 0;">
+                                    <input data-val="true" data-val-required="The Time Afternoon field is required." id="Appointment_TimeAfternoon" name="Appointment.TimeAfternoon" type="checkbox" value="true" /><input name="Appointment.TimeAfternoon" type="hidden" value="false" />
+                                    Afternoon
+                                </label>
+                            </div>
+                            <div class="check" style="margin: 0 0 5px 0;">
+                                <label class="check" style="margin: 0;">
+                                    <input data-val="true" data-val-required="The Time Evening field is required." id="Appointment_TimeEvening" name="Appointment.TimeEvening" type="checkbox" value="true" /><input name="Appointment.TimeEvening" type="hidden" value="false" />
+                                    Evening
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center" style="padding-bottom: 100px;">
+                        <button type="submit" class="btn btn-primary disable-after-click btn-block" style="background-color:#000000 !important;border-color:#000000 !important;">Submit Request</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <script src="../../../app-assets/vendors/js/flowtype/flowtype.js"></script>
+    <!-- BEGIN Vendor JS-->
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/gallery/masonry/masonry.pkgd.min.js"></script>
+    <script src="../../../app-assets/vendors/js/gallery/photo-swipe/photoswipe.min.js"></script>
+    <script src="../../../app-assets/vendors/js/gallery/photo-swipe/photoswipe-ui-default.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/dateTime/moment-with-locales.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/dateTime/bootstrap-datetimepicker.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/daterange/daterangepicker.js"></script>
+
+    <!-- END: Page Vendor JS-->
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+    <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/gallery/photo-swipe/photoswipe-script.js"></script>
+    <script src="../../../app-assets/js/scripts/pickers/dateTime/bootstrap-datetime.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/extended/inputmask/jquery.inputmask.bundle.min.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $('.phone-inputmask').inputmask("(999) 999-9999");
+        });
+    </script>
+    <script type="text/javascript">
+        $(".disable-after-click").click(function (e) {
+            $("form.md-float-material").submit();
+            if ($('#Appointment_PreferredDate')[0].value != '')
+            {
+                $(this).addClass("disabled").prop("disabled", true);
+            }
+        });
+
+        $('.apt-datepick-preferred,.apt-datepick-secondary').pickadate({
+            disable: [
+                1,7
+            ],
+            format: 'mm/dd/yyyy',
+            editable: false,
+            min: 0
+        });
+    </script>
+
+    <!-- END: Page JS-->
+    <script>
+        $('body').flowtype({
+            maxFont: 16,
+            minFont: 14
+        });
+    </script>
+</body>
+<!-- END: Body-->
+</html>
